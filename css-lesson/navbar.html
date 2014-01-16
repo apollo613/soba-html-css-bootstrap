@@ -33,14 +33,13 @@
 
 		a {
 			text-decoration: none; /* get rid of the underline */
-			color: black;
+			/*color: black;*/
 		}
 
 		/* you might want to use targeted selectors like the following: */
 		/* complete the selectors.html assignment first if you aren't sure what's going on here */
 
 		ul.navigation {
-
 		}
 
 		ul.navigation li {
@@ -48,6 +47,12 @@
 			width: 120px;
 			text-align: center;
 			margin: 0 10px;
+			padding: 4px 10px;
+		}
+
+		ul.navigation li a {
+			color: #fff;
+			box-shadow: 0 1px;
 		}
 
 		ul.navigation li:hover {
@@ -56,6 +61,7 @@
 
 		ul.navigation li a:hover {
 			text-decoration: underline;
+			color: #000;
 		}
 
 	</style>
